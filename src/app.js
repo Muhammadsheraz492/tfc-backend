@@ -22,8 +22,11 @@ app.use(cors())
 app.use(morgan('dev'))
 app.use(express.json())
 app.use("/api/users",userRoutes)
-app.use('/api/products',[sessionTestMiddleware],productRoutes);
-app.use('/api/balance',[sessionTestMiddleware],balanceRoutes);
-app.use('/api/des',[sessionTestMiddleware],descriptionRoutes);
+// app.use('/api/products',[sessionTestMiddleware],productRoutes);
+// app.use('/api/balance',[sessionTestMiddleware],balanceRoutes);
+// app.use('/api/des',[sessionTestMiddleware],descriptionRoutes);
+app.use('/api/products',productRoutes);
+app.use('/api/balance',balanceRoutes);
+app.use('/api/des',descriptionRoutes);
 
 export default app
