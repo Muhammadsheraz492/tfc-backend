@@ -4,5 +4,5 @@ const router=express.Router()
 router.get('/',getProduct)
 router.post('/:userId',addProduct)
 router.put('/:productId/:status',changeStatus)
-router.get('/:userId/',getallProduct)
+router.get('/user/:userId/',getallProduct)
 export default router
