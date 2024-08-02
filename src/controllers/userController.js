@@ -266,9 +266,12 @@ export const login = async (req, res) => {
       });
     }
     req.session.user =existingUser 
+    const userResponse = existingUser.toObject();
+    delete userResponse.password
     return res.status(200).json({
         success: true,
         message: 'Login successful',
+        user:userResponse
     });
 
   } catch (error) {
