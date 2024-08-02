@@ -5,5 +5,5 @@ const router=express.Router()
 router.post('/',createUser)
 router.post('/login',login)
 router.get('/verify/:token',verifyUser)
-router.get('/all',,getallUser)
+router.get('/all',getallUser)
 export default router
