@@ -6,7 +6,8 @@ import { StatusValidationSchema, productValidationSchema } from "../validations/
 
 export const addProduct = async (req, res) => {
   try {
-    const userId = req.userId;
+    // const userId = req.userId;
+    const { userId } = req.params;
     const { error, value } = productValidationSchema.validate({
       ...req.body,
       userId,
