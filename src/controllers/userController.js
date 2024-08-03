@@ -159,6 +159,12 @@ export const login = async (req, res) => {
         .json({ success: false, message: error.details[0].message });
     }
     const existingUser = await User.findOne({ email: value.email });
+    if(!existingUser){
+        return res.status(500).json({
+            success:false,
+            message:"Email and Password are incorrect"
+        })
+    }
     if (!existingUser.isVerify) {
       const token = generateToken(existingUser._id);
 
