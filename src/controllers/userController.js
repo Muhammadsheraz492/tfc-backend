@@ -142,7 +142,7 @@ export const verifyUser = async (req, res) => {
     const user = await User.findOne({ _id: userId });
     user.isVerify = true;
     await user.save();
-    await res.redirect("https://tfcmembership.us/");
+    await res.redirect("https://tfc.trumpfinanceco.us/");
   } catch (error) {
     res
       .status(401)
