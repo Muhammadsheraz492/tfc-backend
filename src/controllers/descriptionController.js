@@ -5,7 +5,8 @@ import { DescriptionValidationSchema } from "../validations/descriptionValidatio
 
 export const addDescription=async(req,res)=>{
     try {
-        const { userId,description } = req.params;
+        const { userId,description,date } = req.params;
+        // console.log(date);
         const {error,value}=DescriptionValidationSchema.validate(description)
         if (error) {
             return res
@@ -24,7 +25,7 @@ export const addDescription=async(req,res)=>{
                 })
 
             }
-            const descriptiondata=new Description({description,userId})
+            const descriptiondata=new Description(req.params)
             await descriptiondata.save()
             return res.status(200).json({
                 success:true,

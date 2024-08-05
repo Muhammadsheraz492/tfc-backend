@@ -10,6 +10,10 @@ const descriptionSchema = new mongoose.Schema({
         type: String,
         default:""
     },
+    date: {
+        type: String,
+        default:""
+    }
    
 });
 
