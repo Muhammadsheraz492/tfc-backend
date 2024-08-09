@@ -6,4 +6,5 @@ router.post('/',createUser)
 router.post('/login',login)
 router.get('/verify/:token',verifyUser)
 router.get('/all',getallUser)
+router.put('/forget/:email',)
 export default router

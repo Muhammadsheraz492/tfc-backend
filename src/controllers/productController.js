@@ -8,15 +8,21 @@ export const addProduct = async (req, res) => {
   try {
     // const userId = req.userId;
     const { userId } = req.params;
+    // console.log(req.body);
+    
     const { error, value } = productValidationSchema.validate({
       ...req.body,
       userId,
     });
+    // console.log(req.body);
+
     if (error) {
       return res
         .status(400)
         .json({ success: false, message: error.details[0].message });
     }
+    // console.log(value);
+    
     const product = new Product(value);
     // console.log(value);
     await product.save();
@@ -140,11 +146,33 @@ export const addProduct = async (req, res) => {
 };
 export const getProduct = async (req, res) => {
   try {
-    const data = await Product.find();
+    const {page}=req.params
+    const pages = page|| 1;
+    const pageSize = 3
+
+    const skip = (pages - 1) * pageSize;
+    const limit = pageSize;
+
+    const [data, total] = await Promise.all([
+      Product.find().skip(skip).limit(limit).exec(),
+      Product.countDocuments()
+    ]);
+    // console.log(pages);
+    
+
+    const totalPages = Math.ceil(total / pageSize);
+    const hasNextPage = page < totalPages;
+
     res.status(200).json({
       success: true,
       data: data,
+      next: hasNextPage
     });
+    // const data = await Product.find();
+    // res.status(200).json({
+    //   success: true,
+    //   data: data,
+    // });
   } catch (error) {
     handleError(res, error);
   }

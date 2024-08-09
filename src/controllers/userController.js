@@ -296,3 +296,21 @@ export const getallUser=async(req,res)=>{
         handleError(res,error)
     }
 }
+
+
+export const forgetPassword=(req,res)=>{
+    try {
+        const {email}=req.params;
+        const exitingUser=User.find({email:email})
+        if (exitingUser) {
+            
+        }
+       return res.status(200).json({
+            success:false,
+            message:"User are not Found"
+        })
+        
+    } catch (error) {
+        handleError(res,error)
+    }
+}
