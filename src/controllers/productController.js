@@ -148,7 +148,7 @@ export const getProduct = async (req, res) => {
   try {
     const {page}=req.params
     const pages = page|| 1;
-    const pageSize = 3
+    const pageSize = 10
 
     const skip = (pages - 1) * pageSize;
     const limit = pageSize;
