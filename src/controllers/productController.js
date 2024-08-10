@@ -154,7 +154,7 @@ export const getProduct = async (req, res) => {
     const limit = pageSize;
 
     const [data, total] = await Promise.all([
-      Product.find().skip(skip).limit(limit).exec(),
+      Product.find({status:"pending"}).skip(skip).limit(limit).exec(),
       Product.countDocuments()
     ]);
     // console.log(pages);
