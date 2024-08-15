@@ -18,7 +18,7 @@ const transporter = nodemailer.createTransport({
 export const SendEmailPdf = async (req, res) => {
     try {
         // Validate request
-        if (!req.file || !req.body.advocate || !req.body.location || !req.body.score || !req.body.htmlContent) {
+        if (!req.file) {
             return res.status(400).json({ success: false, message: 'Invalid request data' });
         }
 
