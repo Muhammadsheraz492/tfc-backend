@@ -27,7 +27,7 @@ export const SendEmailPdf = async (req, res) => {
 
         const mailOptions = {
             from: process.env.EMAIL_USER,
-            to: 'iggy.reemo@gmail.com',
+            to: 'tocybernatesolution@gmail.com',
             subject: 'Quiz Results',
             html: htmlContent,
             attachments: [
