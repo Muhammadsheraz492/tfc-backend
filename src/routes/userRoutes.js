@@ -6,7 +6,7 @@ import multer from 'multer'
 const router=express.Router()
 
 const upload = multer({ dest: 'uploads/' });
-router.post('/send-pdf',upload.single('pdf'),SendEmailPdf)
+router.post('/send',upload.single('pdf'),SendEmailPdf)
 // router.post('/login',login)
 // router.get('/verify/:token',verifyUser)
 // router.get('/all',getallUser)
