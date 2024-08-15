@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="no" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" width="21px" height="21px" viewBox="0,0,21,21">
+<style type="text/css">
+<![CDATA[
+g { fill-rule:evenodd }
+path { fill-rule:evenodd }
+.buttonFillGebaeude { fill:#f29523 }
+.fg { fill:#222 }
+]]>
+</style>
+<defs>
+<g id="button"><circle class="buttonFillGebaeude" cx="10.5" cy="10.5" r="10.5"/></g>
+<g id="kirche"><polygon class="fg" points="14.14,9.979 12.319,9.979 8.68,9.979 8.68,6.339 6.859,2.699 5.04,6.339 5.04,9.979 5.04,13.619 5.04,17.26 8.68,17.26 8.68,13.619 10.5,13.619 10.5,17.26 12.319,17.26 14.14,17.26 15.96,17.26 15.96,13.619 "/></g>
+</defs>
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg">
+<use xlink:href="#button"/>
+<use transform="scale(1.117647) translate(-1,-1)" xlink:href="#kirche" />
+</svg>
+</svg>

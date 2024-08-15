@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="no" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" width="21px" height="21px" viewBox="0,0,21,21">
+<style type="text/css">
+<![CDATA[
+g { fill-rule:evenodd }
+path { fill-rule:evenodd }
+.buttonFillVerkehr { fill:#38f }
+.fg { fill:white }
+]]>
+</style>
+<defs>
+<g id="button"><circle class="buttonFillVerkehr" cx="10.5" cy="10.5" r="10.5"/></g>
+<path id="mobility" transform="scale(1.2) translate(-1.5,-2)" class="fg" d="M16.5,14 h-3.81 v-0.58 c0.46,0 0.87,-0.06 0.87,-0.9 v-2.89 c0,-1.3 -0.4,-1.73 -0.96,-1.73 -0.77,0 -1.36,1.36 -1.36,2.09 v2.53 c0,0.74 0.22,0.9 0.89,0.9 v0.58 h-3.81 v-0.58 c0.46,0 0.87,-0.06 0.87,-0.9 v-2.89 c0,-1.3 -0.4,-1.73 -0.96,-1.73 -0.77,0 -1.36,1.36 -1.36,2.09 v2.53 c0,0.74 0.22,0.9 0.89,0.9 v0.58 h-3.8 v-0.58 c0.46,0 0.87,-0.06 0.87,-0.9 v-4.07 c0,-0.73 -0.38,-0.81 -0.9,-0.81 v-0.58 c0.33,0 0.96,-0.04 1.58,-0.09 c0.4,-0.03 0.86,-0.13 1.01,-0.13 c0.1,0 0.1,0.13 0.1,0.24 v0.89 c0,0.22 -0.03,0.46 0.06,0.46 c0.22,0 0.78,-1.58 2.4,-1.58 c1.87,0 1.9,1.61 2.03,1.61 c0.24,0 0.56,-1.61 2.49,-1.61 c1.12,0 2.01,0.95 2.01,2.58 v3.11 c0,0.74 0.22,0.9 0.89,0.9 v0.58 zi" />
+</defs>
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg">
+<use xlink:href="#button"/>
+<use transform="scale(1.117647) translate(-1,-1)" xlink:href="#mobility" />
+</svg>
+</svg>

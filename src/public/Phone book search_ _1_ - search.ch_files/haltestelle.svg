@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="no" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" width="21px" height="21px" viewBox="0,0,21,21">
+<style type="text/css">
+<![CDATA[
+g { fill-rule:evenodd }
+path { fill-rule:evenodd }
+.buttonFillVerkehr { fill:#38f }
+.fg { fill:white }
+]]>
+</style>
+<defs>
+<g id="button"><circle class="buttonFillVerkehr" cx="10.5" cy="10.5" r="10.5"/></g>
+<use id="haltestelle" xlink:href="#tram" />
+<path id="tram" class="fg" d="M10,4 l1.5,0 1.5,1.5 -1.5,1.5 1.5,0 a3,2 0 0,1 3,2 l0,5 a1,1 0 0,1 -1,1 l-2,0 a1,1 0 0,1 -2,0 l-1,0 a1,1 0 0,1 -2,0 l-4,0 0,-8 6,0 1.5,-1.5 z M4,9 l4,0 0,3 -4,0 z M9,9 l1,0 0,3 -1,0 z M11,9 l 1,0 0,3 -1,0 z M13,9 l2,0 0,3 -2,0 z"/>
+</defs>
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg">
+<use xlink:href="#button"/>
+<use transform="scale(1.117647) translate(-1,-1)" xlink:href="#haltestelle" />
+</svg>
+</svg>

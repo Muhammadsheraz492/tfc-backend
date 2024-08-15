@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="no" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" width="21px" height="21px" viewBox="0,0,21,21">
+<style type="text/css">
+<![CDATA[
+g { fill-rule:evenodd }
+path { fill-rule:evenodd }
+.buttonFillKultur { fill:#d782b1 }
+.fg { fill:#222 }
+]]>
+</style>
+<defs>
+<g id="button"><circle class="buttonFillKultur" cx="10.5" cy="10.5" r="10.5"/></g>
+<path id="museum" transform="scale(1.1,1) translate(-0.5,-0.5)" d="M4,8 l6,-4 6,4 -1,0 0,6 1,0 0,2 -12,0 0,-2 1,0 0,-6 z M7,9 l2,0 0,5 -2,0 z M11,9 l2,0 0,5 -2,0 z" class="fg"/>
+</defs>
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg">
+<use xlink:href="#button"/>
+<use transform="scale(1.117647) translate(-1,-1)" xlink:href="#museum" />
+</svg>
+</svg>

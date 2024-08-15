@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="no" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" width="21px" height="21px" viewBox="0,0,21,21">
+<style type="text/css">
+<![CDATA[
+g { fill-rule:evenodd }
+path { fill-rule:evenodd }
+.buttonFillKultur { fill:#d782b1 }
+.fg { fill:#222 }
+]]>
+</style>
+<defs>
+<g id="button"><circle class="buttonFillKultur" cx="10.5" cy="10.5" r="10.5"/></g>
+<path id="theater" d="M4.5,5 l6,1 6,1 0,8 -3.5,2 -3.5,-2 0,-0.5 -1.5,0.5 -3.5,-2 z M6.5,8 l1,0 0,1 -1,0 z M8.5,8 l1,0 0,1 -1,0 z M6.5,13 c0,-2 1.5,-2 1.5,-2 c1.5,0 1.5,2 1.5,2 z M10.5,7 l5,1 0,6 -2.5,1 -2.5,-1 z M11.5,9 l1,0 0,1 -1,0 z M13.5,9 l1,0 0,1 -1,0 z M11.5,12 l1,0 0,1 -1,0 z M13.5,12 l1,0 0,1 -1,0 z M12.5,13 l1,0 0,1 -1,0 z" class="fg"/>
+</defs>
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg">
+<use xlink:href="#button"/>
+<use transform="scale(1.117647) translate(-1,-1)" xlink:href="#theater" />
+</svg>
+</svg>

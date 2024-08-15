@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="no" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" width="21px" height="21px" viewBox="0,0,21,21">
+<style type="text/css">
+<![CDATA[
+g { fill-rule:evenodd }
+path { fill-rule:evenodd }
+.buttonFillVerkehr { fill:#38f }
+.fg { fill:white }
+]]>
+</style>
+<defs>
+<g id="button"><circle class="buttonFillVerkehr" cx="10.5" cy="10.5" r="10.5"/></g>
+<use id="parking" xlink:href="#parkplatz"/>
+<g id="parkplatz"><path class="fg" transform="translate(0,-5) scale(1.333333)" d="M5,8 l2.5,0 c0,0 3.5,0 3.5,2.5 c0,0 0,2.5 -3.5,2.5 l-0.833,0 0,3 -1.66,0 z M6.67,9.34 l0.66,0 c0,0 2,0 2,1.165 c0,0 0,1.165 -2,1.165 l-0.66,0 z"/></g>
+</defs>
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg">
+<use xlink:href="#button"/>
+<use transform="scale(1.117647) translate(-1,-1)" xlink:href="#parking" />
+</svg>
+</svg>

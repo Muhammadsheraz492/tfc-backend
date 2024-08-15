@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="no" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" width="21px" height="21px" viewBox="0,0,21,21">
+<style type="text/css">
+<![CDATA[
+g { fill-rule:evenodd }
+path { fill-rule:evenodd }
+.buttonFillService { fill:#e1d419 }
+.fg { fill:#222 }
+]]>
+</style>
+<defs>
+<g id="button"><circle class="buttonFillService" cx="10.5" cy="10.5" r="10.5"/></g>
+<path id="post" d="M4,14.83 v-8.83 h12 v8.83 h-12 z M4.58,13.86 l3.45,-3.45 l-3.45,-3.45 v6.89 z M4.97,6.58 l4.38,4.38 c0.48,0.48 0.83,0.48 1.32,0 l4.38,-4.38 h-10.07 z M15.04,14.25 l-3.45,-3.45 c-0.68,0.68 -1.12,1.14 -1.59,1.14 s-0.91,-0.47 -1.59,-1.14 l-3.45,3.45 h10.07 z M11.98,10.41 l3.45,3.45 v-6.89 l-3.45,3.45 z" class="fg"/>
+</defs>
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg">
+<use xlink:href="#button"/>
+<use transform="scale(1.117647) translate(-1,-1)" xlink:href="#post" />
+</svg>
+</svg>

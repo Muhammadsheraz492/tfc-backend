@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="no" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" width="21px" height="21px" viewBox="0,0,21,21">
+<style type="text/css">
+<![CDATA[
+g { fill-rule:evenodd }
+path { fill-rule:evenodd }
+.buttonFillGastro { fill:#5dbdbc }
+.fg { fill:#222 }
+]]>
+</style>
+<defs>
+<g id="button"><circle class="buttonFillGastro" cx="10.5" cy="10.5" r="10.5"/></g>
+<path id="hotel" transform="scale(1.1) translate(-0.5,-1)" d="M4,7 l0,7 1,0 0,-2 10,0 0,2 1,0 0,-6 -6,0 c0,0 -1.5,0 -2,2 l-1,0 c0,0 0,-2.5 -3,-3 z" class="fg"/>
+</defs>
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg">
+<use xlink:href="#button"/>
+<use transform="scale(1.117647) translate(-1,-1)" xlink:href="#hotel" />
+</svg>
+</svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="no" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" width="21px" height="21px" viewBox="0,0,21,21">
+<style type="text/css">
+<![CDATA[
+g { fill-rule:evenodd }
+path { fill-rule:evenodd }
+.buttonFillGebaeude { fill:#f29523 }
+.fg { fill:#222 }
+]]>
+</style>
+<defs>
+<g id="button"><circle class="buttonFillGebaeude" cx="10.5" cy="10.5" r="10.5"/></g>
+<path id="verwaltung" d="M5,15 h10 v-8 l-2,-2 h-6 l-2,2 v8 z M10,13 c1.46,0 1,2 1,2 h-2 c0,0 -0.23,-2 1,-2 z M13,12 h1 v1 h-1 v-1 z M8,8 h1 v1 h-1 v-1 z M8,10 h1 v1 h-1 v-1 z M13,8 h1 v1 h-1 v-1 z M13,10 h1 v1 h-1 v-1 z M6,12 h1 v1 h-1 v-1 z M11,8 h1 v1 h-1 v-1 z M11,10 h1 v1 h-1 v-1 z M6,8 h1 v1 h-1 v-1 z M6,10 h1 v1 h-1 v-1 z" class="fg"/>
+</defs>
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg">
+<use xlink:href="#button"/>
+<use transform="scale(1.117647) translate(-1,-1)" xlink:href="#verwaltung" />
+</svg>
+</svg>

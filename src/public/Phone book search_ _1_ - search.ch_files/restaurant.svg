@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="no" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" width="21px" height="21px" viewBox="0,0,21,21">
+<style type="text/css">
+<![CDATA[
+g { fill-rule:evenodd }
+path { fill-rule:evenodd }
+.buttonFillGastro { fill:#5dbdbc }
+.fg { fill:#222 }
+]]>
+</style>
+<defs>
+<g id="button"><circle class="buttonFillGastro" cx="10.5" cy="10.5" r="10.5"/></g>
+<g id="restaurant" transform="translate(0.5,0.5)"><path  id="gabel" transform="translate(10,-4.5) rotate(45)" d="M9,2.5 l0,4 0.66,0 0,-4 0.66,0 0,4 0.66,0 0,-4 c1,2 1,4.5 1,4.5 c-0,2 -1.5,1 -1.5,3 l0.5,8 -2,0	0.5,-8 c0,-2 -1.5,-1 -1.5,-3 c0,-2 1,-4.5 1,-4.5 z" class="fg"/><path id="messer" transform="translate(-4.5,10) rotate(-45)" d="M11,2.5 l0,6.5 c0,0 1,9 0,9 l-1,0 c0,0 -1,0 -0,-9 c-1.5,-2 -2,-6.5 1,-6.5 z" class="fg"/></g>
+</defs>
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg">
+<use xlink:href="#button"/>
+<use transform="scale(1.117647) translate(-1,-1)" xlink:href="#restaurant" />
+</svg>
+</svg>

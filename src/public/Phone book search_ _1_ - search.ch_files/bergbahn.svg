@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="no" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" width="21px" height="21px" viewBox="0,0,21,21">
+<style type="text/css">
+<![CDATA[
+g { fill-rule:evenodd }
+path { fill-rule:evenodd }
+.buttonFillVerkehr { fill:#38f }
+.fg { fill:white }
+]]>
+</style>
+<defs>
+<g id="button"><circle class="buttonFillVerkehr" cx="10.5" cy="10.5" r="10.5"/></g>
+<use id="bergbahn" xlink:href="#luftseilbahn" />
+<path id="luftseilbahn" class="fg" d="M4,6 l12,-2 0,1 -5,0.88 0,3.12 3,0 a1,1 0 0,1 1,1 l0,6 -10,0 0,-6 a1,1 0 0,1 1,-1 l3,0 0,-2.8 -5,0.8 z M6,10 l2,0 0,3 -2,0 z M9,10 l2,0 0,3 -2,0 z M12,10 l2,0 0,3 -2,0 z"/>
+</defs>
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg">
+<use xlink:href="#button"/>
+<use transform="scale(1.117647) translate(-1,-1)" xlink:href="#bergbahn" />
+</svg>
+</svg>

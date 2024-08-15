@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="no" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" width="21px" height="21px" viewBox="0,0,21,21">
+<style type="text/css">
+<![CDATA[
+g { fill-rule:evenodd }
+path { fill-rule:evenodd }
+.buttonFillTel { fill:#fff }
+.fg { fill:#777 } .smalldot { fill:white; stroke:#e4002c; stroke-width:6px }
+#borderColored { fill:none; stroke:#e4002c; stroke-width:2px }
+]]>
+</style>
+<defs>
+<g id="button"><circle class="buttonFillTel" cx="10.5" cy="10.5" r="10.5"/></g>
+<g id="person"><g transform="scale(0.2) translate(12.5,7.5)"><path class="fg" d="M67.811,56.971c-1.948-0.81-17.762-6.753-19.055-9.003c-0.849-1.478-1.04-4-1.04-4s2.786-4.041,3.979-10c0.935-4.673,0.617-9.81-0.011-13c-0.695-3.539-3.934-10-12.005-10c-8.071,0-11.307,6.461-12.002,10c-0.627,3.19-0.936,8.327-0.001,13c1.192,5.96,3.999,10,3.999,10s-0.152,2.522-1,4c-1.293,2.25-16.863,8.193-18.811,9.003C9.917,57.78,9,58.96,9,60.971C9,62.982,9,69,9,69h30.675H71c0,0,0-6.018,0-8.029C71,58.96,69.759,57.78,67.811,56.971z"/></g><use xlink:href="#borderColored" /></g>
+<circle id="borderColored" cx="10.5" cy="10.5" r="9.5"/>
+</defs>
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg">
+<use xlink:href="#button"/>
+<use  xlink:href="#person" />
+</svg>
+</svg>

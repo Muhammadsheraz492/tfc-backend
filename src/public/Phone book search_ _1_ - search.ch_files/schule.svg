@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="no" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" width="21px" height="21px" viewBox="0,0,21,21">
+<style type="text/css">
+<![CDATA[
+g { fill-rule:evenodd }
+path { fill-rule:evenodd }
+.buttonFillGebaeude { fill:#f29523 }
+.fg { fill:#222 }
+]]>
+</style>
+<defs>
+<g id="button"><circle class="buttonFillGebaeude" cx="10.5" cy="10.5" r="10.5"/></g>
+<path id="schule" transform="translate(-0,-1)" d="M4,16 h12 v-5 l-0.88,-2 h-2.13 v-2 l-3,-2 -3,2 v2 h-2 l-1,2 v5 z M14,11 h1 v1 h-1 v-1 z M12,11 h1 v1 h-1 v-1 z M5,13 h1 v1 h-1 v-1 z M14,13 h1 v1 h-1 v-1 z M7,13 h1 v1 h-1 v-1 z M12,13 h1 v1 h-1 v-1 z M5,11 h1 v1 h-1 v-1 z M8.5,7 h1 v1 h-1 v-1 z M8.5,9 h1 v1 h-1 v-1 z M10.5,7 h1 v1 h-1 v-1 z M10.5,9 h1 v1 h-1 v-1 z M7,11 h1 v1 h-1 v-1 z M9,13 h2 v3 h-2 z" class="fg"/>
+</defs>
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg">
+<use xlink:href="#button"/>
+<use transform="scale(1.117647) translate(-1,-1)" xlink:href="#schule" />
+</svg>
+</svg>
